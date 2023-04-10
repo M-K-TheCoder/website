@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/sty2.css">
+    <title>Variables</title>
+</head>
+<body>
+    building a payment form
+    <script src="../js/index.js"></script>
+
+    <h1>Hey! Whats up</h1>
+</body>
+<script>
+     // Naming Conventions
+    //  camlecase
+     let firstName = "Muhammad";
+    //  pascaleCase
+    let LastName = "kaif";
+    // snakeCase
+    let middle_name = "kaif";
+    // using constant (const keyword) 
+    const price = 99;
+    // Course name (string)
+    var courseName  = "Java DS/Algo course";
+    // card Number
+    var cardNumber = "923849824";
+    // payment status (Boolean)
+    var isPaid = true;
+    // declaring a variable
+    var modeofpayment;
+    // taking input from user
+    modeofpayment = prompt('Mode of payment');
+    // output to user
+    alert(firstName + "Successfully bought " + courseName + "using" + modeofpayment);
+    
+    var time = prompt("Hey! Whats the time:");
+    if(time>>5 && time<<17){
+       
+        alert("Good Moorning");
+
+    }
+    else if(time>12 && time<<17){
+        alert("good afternoon")
+    }
+    else if(time>>17 && time<<21){
+        alert('good evening')
+    }
+    else{
+        alert("Good night");
+    }
+    switch(devices){
+   case "fan":
+   console.log("fan is turn on");
+   break;
+   case "tv":
+   console.log("tv is turn on");
+   break;
+   case "charger":
+   console.log("charger is turn on");
+   break;
+   case "tube light":
+   console.log("tube lighr is turn on");
+   break;
+   default:
+      console("no action");
+}
+
+</script>
+</html>
